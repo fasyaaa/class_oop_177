@@ -5,7 +5,7 @@ class Mahasiswa {
 public:											//akses modifier
 	int nim;									//variable
 	string nama;								//variable
-	void tampil() {								//prosedure / fungsi			
+	void tampil() {								//prosedure / fungsi / methode		
 		cout << "\nNIM = " << nim;				//output
 		cout << "\nNama = " << nama;
 	}
@@ -17,7 +17,7 @@ private:										//akses modifier
 	string kode;								//variable
 	string namaMK;								//variable
 public:											//akses modifier
-	void inputMK() {							//prosedure / fungsi
+	void inputMK() {							//prosedure / fungsi / methode
 
 		cout << "\nMasukkan jumlah SKS = ";
 		cin >> sks;								//input
@@ -44,7 +44,7 @@ int main() {
 	cout << "\nMasukkan Nama = ";
 	cin >> mhs.nama;
 	
-	mhs.tampil();					//note tampilakannya harus urut
+	mhs.tampil();					//note : tampilkannya harus urut dari yg paling atas
 	MK.inputMK();
 	MK.tampilMK();
 	
