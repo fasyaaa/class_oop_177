@@ -2,21 +2,21 @@
 using namespace std;
 
 class Mahasiswa {
-public:
+public:											//akses modifier
 	int nim;
 	string nama;
 	void tampil() {								
-		cout << "NIM = " << nim;
+		cout << "\nNIM = " << nim;
 		cout << "\nNama = " << nama;
 	}
 };
 
 class MataKuliah {
-private:
+private:										//akses modifier
 	int sks;
 	string kode;
-	string namaMK;
-public:
+	string namaMK;	
+public:											//akses modifier
 	void inputMK() {
 
 		cout << "\nMasukkan jumlah SKS = ";
@@ -36,5 +36,16 @@ public:
 
 
 int main() {
+	Mahasiswa mhs;					//objek
+	MataKuliah MK;					//objek
 
+	cout << "Masukkan NIM = ";
+	cin >> mhs.nim;
+	cout << "Masukkan Nama = ";
+	cin >> mhs.nama;
+	
+	mhs.tampil();
+	MK.tampilMK();
+	MK.inputMK();
+	
 }
