@@ -3,24 +3,24 @@ using namespace std;
 
 class Mahasiswa {
 public:											//akses modifier
-	int nim;
-	string nama;
+	int nim;									//variable
+	string nama;								//variable
 	void tampil() {								//prosedure / fungsi			
-		cout << "\nNIM = " << nim;
+		cout << "\nNIM = " << nim;				//output
 		cout << "\nNama = " << nama;
 	}
 };
 
 class MataKuliah {
 private:										//akses modifier
-	int sks;
-	string kode;
-	string namaMK;	
+	int sks;									//variable
+	string kode;								//variable
+	string namaMK;								//variable
 public:											//akses modifier
 	void inputMK() {							//prosedure / fungsi
 
 		cout << "\nMasukkan jumlah SKS = ";
-		cin >> sks;
+		cin >> sks;								//input
 		cout << "\nMasukkan Kode MK = ";
 		cin >> kode;
 		cout << "\nMasukkan Nama MK = ";
