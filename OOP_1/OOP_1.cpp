@@ -44,10 +44,9 @@ int main() {
 	cout << "\nMasukkan Nama = ";
 	cin >> mhs.nama;
 	
-	mhs.tampil();					//tampilakannya harus urut
+	mhs.tampil();					//note tampilakannya harus urut
 	MK.inputMK();
 	MK.tampilMK();
-	
 	
 	
 }
