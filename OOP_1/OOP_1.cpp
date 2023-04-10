@@ -19,3 +19,8 @@ private:
 public:
 
 };
+
+
+int main() {
+
+}
